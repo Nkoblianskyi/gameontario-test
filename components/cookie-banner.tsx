@@ -53,7 +53,7 @@ export function CookieBanner() {
             </button>
             <button
               onClick={acceptCookies}
-              className="flex-1 md:flex-none px-6 py-2.5 bg-casino-gold hover:bg-casino-gold/90 text-black rounded-lg transition-colors text-sm font-medium"
+              className="flex-1 md:flex-none px-6 py-2.5 bg-casino-gold hover:bg-casino-gold/90 text-green-600 border border-green-600 rounded-lg transition-colors text-sm font-medium"
             >
               Accept All
             </button>
