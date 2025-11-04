@@ -226,8 +226,8 @@ export function Card({ site, rank }: SiteCardProps) {
               {/* Bonus Column - 55% */}
               <div className="text-center">
                 <div className="text-xs font-bold text-gray-400 mb-0.5 leading-tight">Bonus</div>
-                <div className="text-sm font-bold text-white leading-tight">{site.bonus}</div>
-                <div className="text-sm font-bold text-white leading-tight">{site.welcomeOffer}</div>
+                <div className="text-lg font-bold text-white leading-tight">{site.bonus}</div>
+                <div className="text-lg font-bold text-white leading-tight">{site.welcomeOffer}</div>
               </div>
             </div>
 
