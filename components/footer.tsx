@@ -8,7 +8,7 @@ export default function Footer() {
           <Link href="/" className="inline-flex items-center hover:opacity-80 transition-opacity">
             <div className="flex items-center space-x-3">
               <h3 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[hsl(var(--casino-gold))] via-yellow-400 to-[hsl(var(--casino-gold))] bg-clip-text text-transparent">
-                GamesOntario.com
+                GamesOntario
               </h3>
             </div>
           </Link>
@@ -75,28 +75,12 @@ export default function Footer() {
                 <img src="/igamingontario.svg" alt="iGaming Ontario" className="max-h-full max-w-full object-contain" />
               </a>
               <a
-                href="https://kaizengaming.com/home"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white rounded-lg p-3 md:p-4 hover:shadow-lg transition-shadow duration-200 flex items-center justify-center h-16 md:h-20 w-24 md:w-32"
-              >
-                <img src="/ksizengaming.svg" alt="Kaizen Gaming" className="max-h-full max-w-full object-contain" />
-              </a>
-              <a
                 href="https://gamblingtherapy.org/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white rounded-lg p-3 md:p-4 hover:shadow-lg transition-shadow duration-200 flex items-center justify-center h-16 md:h-20 w-24 md:w-32"
               >
                 <img src="/gordon.png" alt="Gambling Therapy" className="max-h-full max-w-full object-contain" />
-              </a>
-              <a
-                href="https://ibia.bet/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white rounded-lg p-3 md:p-4 hover:shadow-lg transition-shadow duration-200 flex items-center justify-center h-16 md:h-20 w-24 md:w-32"
-              >
-                <img src="/ibia.svg" alt="IBIA" className="max-h-full max-w-full object-contain" />
               </a>
               <a
                 href="https://www.gambleaware.org/"
