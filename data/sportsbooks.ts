@@ -18,7 +18,7 @@ export const sportsbooks: Sportsbook[] = [
     bonus: "100% matched bonus",
     welcomeOffer: "up to $1,000",
     rating: 9.8,
-    votes: 2745,
+    votes: 2741,
     logo: "/bet365.png",
     terms:
       "19+ only. Regulated by AGCO. Please play responsibly. Gambling problem? Call 1-866-531-2600 or visit ConnexOntario.ca. New customers only. Min deposit $10. Wagering requirements apply. T&Cs, time limits and exclusions apply.",
@@ -30,7 +30,7 @@ export const sportsbooks: Sportsbook[] = [
     bonus: "Casino Welcome Deposit Match",
     welcomeOffer: "Up to $3,000",
     rating: 9.7,
-    votes: 2891,
+    votes: 2591,
     logo: "/betano.svg",
     terms:
       "19+ only. Regulated by AGCO. Please play responsibly. Gambling problem? Call 1-866-531-2600 or visit ConnexOntario.ca. New customers only. Min deposit $10. Wagering requirements apply. T&Cs apply.",
