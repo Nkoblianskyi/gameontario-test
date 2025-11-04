@@ -46,11 +46,9 @@ export function HeroSection() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-center">
         <div className="text-center space-y-3 md:space-y-4">
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-balance">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-balance flex flex-row items-center justify-center gap-3 md:gap-4">
             <span className="text-foreground">Best </span>
             <span className="text-[hsl(var(--casino-gold))] inline-block animate-shimmer">Ontario Casinos</span>
-            <br />
-            <span className="text-foreground">2025</span>
           </h1>
 
           <p className="hidden sm:block text-sm md:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto text-balance">

@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Header() {
   return (
@@ -12,6 +13,7 @@ export default function Header() {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           <div className="flex items-center space-x-2 md:space-x-3">
+            <Image src="/favicon.ico" alt="Logo" width={32} height={32} />
             <h1 className="text-lg md:text-3xl font-bold bg-gradient-to-r from-gold via-yellow-400 to-gold bg-clip-text text-transparent">
               GamesOntario
             </h1>

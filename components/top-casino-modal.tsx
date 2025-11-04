@@ -44,8 +44,8 @@ export default function TopCasinoModal() {
             <Image
               src={topCasino.logo || "/placeholder.svg"}
               alt={`${topCasino.name} logo`}
-              width={140}
-              height={70}
+              width={240}
+              height={120}
               className="rounded"
             />
           </div>
