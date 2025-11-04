@@ -64,27 +64,7 @@ export function Card({ site, rank }: SiteCardProps) {
 
   return (
     <div className="block">
-      {rank === 1 && (
-        <div className="hidden md:block bg-black text-white rounded-lg overflow-hidden mb-2">
-          <div className="h-[40px] flex items-center px-6">
-            <div className="flex-[0_0_30%] text-center pr-2">
-              <span className="text-xs font-bold">CASINO</span>
-            </div>
-            <div className="flex-[0_0_25%] text-center px-2">
-              <span className="text-xs font-bold">BONUS OFFER</span>
-            </div>
-            <div className="flex-[0_0_20%] text-center px-2">
-              <span className="text-xs font-bold">USER RATING</span>
-            </div>
-            <div className="flex-[0_0_12%] text-center px-2">
-              <span className="text-xs font-bold">SCORE</span>
-            </div>
-            <div className="flex-[0_0_13%] text-center pl-2">
-              <span className="text-xs font-bold">VISIT SITE</span>
-            </div>
-          </div>
-        </div>
-      )}
+
 
       {/* Desktop Layout */}
       <div
